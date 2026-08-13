@@ -1,0 +1,78 @@
+:root {
+    --soft-pink: #FFF0F5; /* Lavender blush for the background */
+    --dark-pink: #FFB6C1; /* Accent pink */
+    --gold: #D4AF37;      /* Metallic gold */
+    --white: #FFFFFF;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: var(--soft-pink);
+    font-family: 'Poppins', sans-serif;
+    color: #333;
+    display: flex;
+    justify-content: center;
+    min-height: 100vh;
+    align-items: center;
+}
+
+.container {
+    width: 90%;
+    max-width: 800px;
+    background-color: var(--white);
+    margin: 40px 20px;
+    padding: 40px;
+    border-radius: 20px;
+    box-shadow: 0 10px 30px rgba(212, 175, 55, 0.15); /* Soft gold shadow */
+    border: 2px solid var(--gold);
+    text-align: center;
+}
+
+h1 {
+    font-family: 'Playfair Display', serif;
+    color: var(--gold);
+    font-size: 3em;
+    margin-bottom: 5px;
+}
+
+p {
+    color: #888;
+    font-size: 1.1em;
+    margin-bottom: 30px;
+}
+
+video {
+    width: 100%;
+    border-radius: 12px;
+    border: 3px solid var(--soft-pink);
+    outline: none;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.05);
+}
+
+.playlist {
+    margin-top: 25px;
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    flex-wrap: wrap;
+}
+
+button {
+    background-color: var(--white);
+    color: var(--gold);
+    border: 2px solid var(--gold);
+    padding: 10px 25px;
+    border-radius: 30px;
+    cursor: pointer;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    transition: all 0.3s ease;
+}
+
+button:hover {
+    background-color: var(--gold);
+    color: var(--white);
+    transform: translateY(-2px);
+    box-shadow: 0 4px 10px rgba(212, 175, 55, 0.3);
+}

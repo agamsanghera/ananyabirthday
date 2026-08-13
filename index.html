@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Happy Birthday Ananya!</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- Elegant fonts for a birthday theme -->
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,600;1,600&family=Poppins:wght@300;400&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Happy Birthday, Ananya! ✨</h1>
+            <p>A little something to celebrate you.</p>
+        </header>
+
+        <section class="video-section">
+            <!-- Main Video Player -->
+            <div class="main-video-container">
+                <video id="mainVideo" controls>
+                    <!-- Change 'video1.mp4' to the exact name of your first video -->
+                    <source src="videos/nani.mp4" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>
+            </div>
+
+            <!-- Playlist Buttons -->
+            <div class="playlist">
+                <!-- Add as many buttons as you have videos -->
+                <button onclick="changeVideo('videos/parents.mp4')">Memory 1</button>
+                <button onclick="changeVideo('videos/Ayanna.mp4')">Memory 2</button>
+                <button onclick="changeVideo('videos/Mehak.mp4')">Memory 3</button>
+            </div>
+        </section>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
