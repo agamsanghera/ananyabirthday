@@ -9,6 +9,16 @@
     <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,600;1,600&family=Poppins:wght@300;400&display=swap" rel="stylesheet">
 </head>
 <body>
+    <div id="envelope-overlay">
+        <div class="envelope" onclick="openEnvelope()">
+            <div class="flap"></div>
+            <div class="seal"></div>
+            <div class="letter">
+                <p>For Ananya ❤️</p>
+            </div>
+        </div>
+        <p class="click-instruction">Click to open</p>
+    </div>
     <div class="container">
         <header>
             <h1>Happy Birthday, Ananya! ✨</h1>
@@ -19,7 +29,6 @@
             <!-- Main Video Player -->
             <div class="main-video-container">
                 <video id="mainVideo" controls>
-                    <!-- Change 'video1.mp4' to the exact name of your first video -->
                     <source src="videos/AnanyaWishes.mp4" type="video/mp4">
                     Your browser does not support the video tag.
                 </video>
